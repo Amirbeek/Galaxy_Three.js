@@ -139,7 +139,7 @@ gui.addColor(parameters, 'outsideColor').onFinishChange(generateGalaxy)
 
 // Load a sound and set it as the Audio object's buffer
 const audioLoader = new THREE.AudioLoader();
-audioLoader.load('https://example.com/path_to_your_audio.mp3', function(buffer) {
+audioLoader.load('./universe-space-sounds-3595.mp3', function(buffer) {
     sound.setBuffer(buffer);
     sound.setLoop(true);
     sound.setVolume(0.5);
